@@ -94,6 +94,9 @@ a {
     margin: 30px 70px;
 }
 
+nav a:hover{
+    color: firebrick;
+}
 
 .container {
     width: 800px;
@@ -304,6 +307,50 @@ button{
     margin-right: 600px;
 }
 
+
+
+
 #blogimg{
-    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 90px;
+}
+
+#topblog{
+    display: flex;
+    justify-content: center;
+}
+
+.skylineimg{
+    
+    margin-top: 50px;
+    width: 47%
+    margin-bottom: 20px;
+}
+
+#jobmarket{
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+}
+
+.momimg{
+    margin-top: 40px;
+    width: 23%;  
+    margin-right: 500px; 
+    margin-bottom: 20px;
+}
+.policeimg{
+    margin-top: 40px;
+    width: 23%%;
+    
+}
+
+#bottomblog{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 90px;
+    margin-left: 300px;
 }
