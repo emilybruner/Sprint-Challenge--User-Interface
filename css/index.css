@@ -303,3 +303,7 @@ button{
     margin-left: 525px;
     margin-right: 600px;
 }
+
+#blogimg{
+    object-fit: contain;
+}
