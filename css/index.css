@@ -280,3 +280,26 @@ button{
 #bottomcontent{
     margin: 40px 0px;
 }
+
+/* Stretch Goal Blog Website Styling */
+
+#blogbody{
+    width: 80%;
+}
+#blogheading{
+    color: firebrick;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+    margin-top: 40px;
+
+}
+
+#blognav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 525px;
+    margin-right: 600px;
+}
