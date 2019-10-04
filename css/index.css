@@ -225,7 +225,7 @@ button{
     background-color: white;
     width: 30%;
     padding: 5px;
-    margin-top: 20px;
+    margin: 20px 0px;
 }
 
 .midimg{
@@ -244,15 +244,39 @@ button{
     justify-content: flex-start;
     margin-right: 20px;
     margin-bottom: 40px;
+    border-bottom: 1px dashed black;
 }
 
 
 #howwework{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     margin-left: 20px;
+    border-bottom: 1px dashed black;
+    height: 47%;
+    
 }
+
 
 #midbottom{
     display: flex;
+}
+
+#places{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border-bottom: 1px dashed black;
+}
+
+#collaboration{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    border-bottom: 1px dashed black;
+}
+
+#bottomcontent{
+    margin: 40px 0px;
 }
