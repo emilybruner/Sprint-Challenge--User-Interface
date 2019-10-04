@@ -218,3 +218,41 @@ footer nav a {
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
+
+/* Middle Content */
+
+button{
+    background-color: white;
+    width: 30%;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.midimg{
+    margin-bottom: 10px;
+}
+
+
+#midtop{
+    display:flex;
+    justify-content: space-between;
+}
+
+#strategy{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+
+#howwework{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#midbottom{
+    display: flex;
+}
