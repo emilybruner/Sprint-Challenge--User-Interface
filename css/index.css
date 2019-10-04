@@ -206,3 +206,15 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page Code Starts Here */
+
+/*About Content */
+
+#about{
+    display:flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
